@@ -12,15 +12,15 @@
 
   Our main goal with this organization is to provide our clients with a great  
   experience through our dedicated work.
-  
+
 # Instructions for Contributions
 
   Any contributions to source code is very helpful. What is most needed is help with  
   design rather than internal code. Contributions of the following are accepted:
-  
+
   +CSS  
   +HTML  
   +MySQL/Django (depending on what we use)  
   +JavaScript/jQuery  
-  
+
 # **THANK YOU**
