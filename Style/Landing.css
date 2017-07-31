@@ -5,29 +5,68 @@
   h1 {
     color: #999;
     text-align: center;
+    margin-right: ;
   }
   body {
     background-image: url(https://puwsbg.dm2301.livefilestore.com/y4mEJVE2ncmY_V_Bub63d6iUqezKoFZxzAubGBnuWnwiH-zOku2uhX08dU4BhTy5B6pmvg8BYxlrrB-NNtbQ-5y2UfWBVB1NjnNBQ0mhcEV5Mt-cQZc4idDE_Q541MIHk9uE0XofimCJ3aWA6QNn6CLSmnW_6DsfImgpLDkL-Vkz6U22ORfK_zFfTMTHPXhKmAnkjt0d53rvcN4Ec5A0DSU-g?width=1920&height=1200&cropmode=none);
   }
-  p { id=opening;
+  #opening{
     text-align: center;
+    font-size: 1.3em;
+    font-family: sans-serif;
+    line-height: 45px;
+    margin-left: 25%;
+    margin-right: 25%
   }
   img {
-    margin-left: 225px;
-    margin-right: 300px;
+    margin-left: 30%;
+    margin-right: 0px;
+    margin-top: -2%;
+    height: auto;
+    width: 5em;
+    float: left;
+    padding: 0px;
   }
-  p { id=imgdesc;
+#imgdesc {
     text-align:center;
+    margin-left: 42%;
+    margin-right: 42%;
   }
-  p { id=closing;
+#closing {
     text-align: center;
   }
-  ul {
-    list-style-type: none;
+
+  p {
+    background-color: rgba(206, 125, 205, 0.5);
+    background: rgba(206, 125, 205, 0.5);
+    padding: 1em;
+    border-radius: 5px;
+
+  }
+
+a:hover {
+  color: rgba(141, 37, 193, 1);
+  background-color: white;
+  border-radius: 5px;
+}
+a {
+  background-color: #111;
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+
+  #navbar {
     margin: 0;
     padding: 0;
     text-align: center;
     background-color: #111;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 1.5em;
+    color: Blue;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
   li {
     display: inline-block;
@@ -39,8 +78,11 @@
     margin: 5px;
     padding: 8px;
   }
-  div {
+  .thanks {
     text-align: center;
+    background-color: rgba(206, 125, 205, 0.5);
+    margin-left: 44%;
+    margin-right: 44%;
   }
   li a:hover {
     color: lightblue;
