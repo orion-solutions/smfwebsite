@@ -110,5 +110,8 @@ a {
   }
   .other {
       text-align: center;
+      background-color: rgba(0,0,0,0);
+      text-decoration: none;
+      text-decoration-color: none;
   }
 </style>
