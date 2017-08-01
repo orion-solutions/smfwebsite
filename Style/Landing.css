@@ -100,6 +100,15 @@ a {
   .important {
       color: rgb(255, 0, 31);
       text-align: center;
-      background-color: rgba(0, 75, 255, 0.75);
+      background-color: rgba(0,0,0,0);
+  }
+  #important {
+      text-align: center;
+  }
+  #other {
+      text-align: center;
+  }
+  .other {
+      text-align: center;
   }
 </style>
