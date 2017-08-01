@@ -2,7 +2,7 @@
   header {
     text-align: center;
   }
-  h1 {
+  #welcome {
     color: #999;
     text-align: center;
     margin-right: ;
@@ -78,14 +78,19 @@ a {
     margin: 5px;
     padding: 8px;
   }
-  .thanks {
-    text-align: center;
-    background-color: rgba(206, 125, 205, 0.5);
-    margin-left: 44%;
-    margin-right: 44%;
-  }
   li a:hover {
     color: lightblue;
     background-color: #999;
+  }
+  #foot1 {
+      text-align: center;
+  }
+  #foot2 {
+      text-align: center;
+  }
+  #quicknews {
+      text-align: center;
+      color: rgb(0, 177, 255);
+      text-decoration: underline;
   }
 </style>
