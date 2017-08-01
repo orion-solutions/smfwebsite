@@ -99,5 +99,6 @@ a {
   }
   .important {
       color: rgb(255, 0, 31);
+      text-align: center;
   }
 </style>
