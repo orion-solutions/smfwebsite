@@ -67,9 +67,12 @@ p {
       text-decoration: underline;
   }
   #divnews {
-      align-content: center;
-      background-color: rgba(0, 75, 255, 0.75)
-  }
+    align-content: center;
+    background-color: rgba(206, 125, 205, 0.5);
+    background: rgba(206, 125, 205, 0.5);
+    padding: 1em;
+    border-radius: 5px;
+}
   .important {
       color: rgb(255, 0, 31);
       text-align: center;
