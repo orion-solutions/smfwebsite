@@ -93,4 +93,11 @@ a {
       color: rgb(0, 177, 255);
       text-decoration: underline;
   }
+  #divnews {
+      align-content: center;
+      background-color: rgba(0, 75, 255, 0.75)
+  }
+  .important {
+      color: rgb(255, 0, 31);
+  }
 </style>
