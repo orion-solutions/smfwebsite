@@ -96,10 +96,8 @@ p {
       color: #999
   }
   .nav,.nav2,.nav3,.nav4,.nav5 {
-    background-color: rgba(206, 125, 205, 0.5);
-    background: rgba(206, 125, 205, 0.5);
-    padding: 1em;
-    border-radius: 5px;
+    font-family: 'Comic Sans MS';
+    color:#999;
     text-decoration:none;
   }
 </style>
