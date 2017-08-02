@@ -26,23 +26,36 @@
     width: 5em;
     float: left;
     padding: 0px;
-}
+  }
 #imgdesc {
     text-align:center;
     margin-left: 42%;
     margin-right: 42%;
-}
+  }
 #closing {
     text-align: center;
-}
+  }
 
-p {
+  p {
     background-color: rgba(206, 125, 205, 0.5);
     background: rgba(206, 125, 205, 0.5);
     padding: 1em;
     border-radius: 5px;
 
+  }
+
+a:hover {
+  color: rgba(141, 37, 193, 1);
+  background-color: white;
+  border-radius: 5px;
 }
+a {
+  background-color: #111;
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+
   #navbar {
     margin: 0;
     padding: 0;
@@ -55,6 +68,20 @@ p {
     padding-top: 2px;
     padding-bottom: 2px;
   }
+  li {
+    display: inline-block;
+    width: 100px;
+  }
+  li a {
+    color: white;
+    text-decoration-line: none;
+    margin: 5px;
+    padding: 8px;
+  }
+  li a:hover {
+    color: lightblue;
+    background-color: #999;
+  }
   #foot1 {
       text-align: center;
   }
@@ -65,42 +92,5 @@ p {
       text-align: center;
       color: rgb(0, 177, 255);
       text-decoration: underline;
-  }
-  #divnews {
-    align-content: center;
-    background-color: rgba(206, 125, 205, 0.5);
-    background: rgba(206, 125, 205, 0.5);
-    padding: 1em;
-    border-radius: 5px;
-  }
-  .important {
-      color: rgb(255, 0, 31);
-      text-align: center;
-      background-color: rgba(0,0,0,0);
-  }
-  #important {
-      text-align: center;
-  }
-  #other {
-      text-align: center;
-  }
-  .other {
-      text-align: center;
-      background-color: rgba(0,0,0,0);
-  }
-  a {
-      text-decoration: none;
-      background-color: rgba(0,0,0,0);
-      color: #000;
-  }
-  a:hover {
-      text-decoration: none;
-      background-color: rgba(75,125,255,0.75);
-      color: #999
-  }
-  .nav,.nav2,.nav3,.nav4,.nav5 {
-    font-family: 'Comic Sans MS';
-    color:#999;
-    text-decoration:none;
   }
 </style>
