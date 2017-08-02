@@ -8,6 +8,10 @@
      background-image: url(https://puwsbg.dm2301.livefilestore.com/y4mEJVE2ncmY_V_Bub63d6iUqezKoFZxzAubGBnuWnwiH-zOku2uhX08dU4BhTy5B6pmvg8BYxlrrB-NNtbQ-5y2UfWBVB1NjnNBQ0mhcEV5Mt-cQZc4idDE_Q541MIHk9uE0XofimCJ3aWA6QNn6CLSmnW_6DsfImgpLDkL-Vkz6U22ORfK_zFfTMTHPXhKmAnkjt0d53rvcN4Ec5A0DSU-g?width=1920&height=1200&cropmode=none);
    }
 
+   body p {
+     text-align: center;
+   }
+
   #opening{
      text-align: center;
      font-size: 1.3em;
@@ -58,16 +62,16 @@ a {
 }
 
 #navbar {
-     margin: 0;
+     margin-right: 78px;
      padding: 0;
      text-align: center;
      background-color: #111;
-    margin-left: 35%;
-    margin-right: 35%;
-    font-size: 1.5em;
-    color: Blue;
-  adding-top: 2px;
-    padding-bottom: 2px;
+     margin-left: 35%;
+     margin-right: 35%;
+     font-size: 1.5em;
+     color: Blue;
+     padding-top: 2px;
+     padding-bottom: 2px;
    }
    li {
      display: inline-block;
@@ -83,7 +87,8 @@ a {
    }
 
 .preview {
-  margin: 0;
+  margin-right: 40%;
+  margin-left: 40%;
   padding: 0;
   list-style: none;
   text-decoration: none;
@@ -101,7 +106,7 @@ a {
 
 .slider figure img {
   width: 100%;
-  ;
+  margin-top: px;
 }
 
 .slider figure {
@@ -109,15 +114,15 @@ a {
   width: 500%;
   margin: 0;
   Left: 0;
-  animation: 20s slidy infinite;
+  animation: 30s slidy infinite;
 }
 
-p {
+.slide p {
   z-index: 10000;
   font-size: ;
   text-align: center;
   width: 80%;
-  padding-top: px;
+  padding-top: 10px;
   color: black;
   font-family: 'Lato';
 }
