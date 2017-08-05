@@ -10,7 +10,14 @@
   <meta charset=utf8>
 
   <title>SM Freelance LLC</title>
-
+  <meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="script.js"></script>
+<title>CSS MenuMaker</title>
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
 
 </head>
@@ -18,19 +25,20 @@
 <body>
     <!--Header does not like being nested in <html> so change to nest in <body>
         Same goes for Footer-->
-    <header>
+        <div id='cssmenu'>
 
-        <h1 id="welcome"style="color:rgb(0,0,0);">Welcome to SM Freelance</h1>
-        <img src='https://lh3.googleusercontent.com/fFtFCOr-2_JkBv1QaCqnaDRIcTzn0xiB70ndrgfSuNaS1KsSFj2Gi6U6cbBEjXvLtAZJE4UCGdgnJNozq0UtWAD4Jam8SwJ-5urWBY14mxkaAIZC8cVzj9LzPng3_L0ZOecfcrT7Bg' />
-
-        <p id="navbar">
-            <a href="Home.html" style="text-decoration:none">Home</a></li>
-            |  <a href="About.html" style="text-decoration:none">About Us</a></li>
-            |  <a href="Contact.html" style="text-decoration:none">Contact Us</a></li>
-            |  <a href="Projects.html" style="text-decoration:none">Projects</a></li>
-            |  <a href="News.html" style="text-decoration:none">News</a></li>
-        </p>
-
+        <img src='https://lh3.googleusercontent.com/1ZY_VudfNAG2jEE7fW6C6ZWWbRBObge7Cz5RholUlMOWlR3r_3DxvVm0HrXyf9kr0sqBuMt_OmNdN38ba5kCSbkMIojbIkSapIgyNzu7agJd5oBvW8lzfukRgoA0sja6EIySYl0uZw'>
+        <p id= "SM">SM - freelance</p>
+        <!-- If applying this to multiple pages, remember
+        to move the active class to the page the html file
+        represents -->
+        <ul>
+           <li class='active'><a href='Landing.html'><span>Landing</span></a></li>
+           <li><a href='Home.html'><span>Home</span></a></li>
+           <li><a href='Projects.html'><span>Projects</span></a></li>
+           <li class='last'><a href='About.html'><span>About Us</span></a></li>
+        </ul>
+        </div>
     </header>
 
   <!--  <img src="https://puzokq.dm2301.livefilestore.com/y4mSYaDpsQd79YWhO943hL7BlBd5dj9VvOQAUMz91FiKJE_rzfMKfDtFtNsIfuZqQm7P_vFqNyOEcuBAY6qcKXsy48y68lyNhoBaNnU9leOZO5p_fsAJflCsPO0dpqmOzt-xY9k6JTm8ZwDYqInaUftWtNhBaL08mfDi6ojsPBA4EUMH3-PPE8pbnzQbXs1TAyxzVucPN0VD_cm8UcaIKVK1w?width=1080&height=1182&cropmode=none" width="1080" height="1182" />-->
