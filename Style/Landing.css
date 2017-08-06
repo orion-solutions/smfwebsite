@@ -199,6 +199,7 @@ body {
         padding: 1em;
         border-radius: 5px;
     }
+}
 
     #foot1 {
         text-align: center;
@@ -213,5 +214,3 @@ body {
         color: rgb(0, 177, 255);
         text-decoration: underline
     }
-}
-  
