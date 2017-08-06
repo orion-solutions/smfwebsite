@@ -158,48 +158,60 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  #cssmenu ul li {
-    float: none;
-    display: block;
-  }
-  #cssmenu ul li a {
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom: 1px solid #fb998c;
-  }
-  #cssmenu ul li.last>a, #cssmenu ul li:last-child>a {
-    border: 0;
-  }
-  #cssmenu ul li a:after {
-    display: none;
-  }
-  #cssmenu ul li a:before {
-    display: none;
-  }
-  #imgdesc {
-    text-align: center;
-    margin-left: 42%;
-    margin-right: 42%;
-  }
-  #closing {
-    text-align: center;
-  }
-  p {
-    background-color: rgba(206, 125, 205, 0.5);
-    background: rgba(206, 125, 205, 0.5);
-    padding: 1em;
-    border-radius: 5px;
-  }
-  #foot1 {
-    text-align: center;
-  }
-  #foot2 {
-    text-align: center;
-  }
-  #quicknews {
-    text-align: center;
-    color: rgb(0, 177, 255);
-    text-decoration: underline;
-  }
+    #cssmenu ul li {
+        float: none;
+        display: block;
+        }
+
+        #cssmenu ul li a {
+            width: 100%;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border-bottom: 1px solid #fb998c;
+        }
+
+        #cssmenu ul li.last > a, #cssmenu ul li:last-child > a {
+            border: 0;
+        }
+
+        #cssmenu ul li a:after {
+            display: none;
+        }
+
+        #cssmenu ul li a:before {
+            display: none;
+        }
+
+    #imgdesc {
+        text-align: center;
+        margin-left: 42%;
+        margin-right: 42%;
+    }
+
+    #closing {
+        text-align: center;
+    }
+
+    p {
+        background-color: rgba(206, 125, 205, 0.5);
+        background: rgba(206, 125, 205, 0.5);
+        padding: 1em;
+        border-radius: 5px;
+    }
+
+    #foot1 {
+        text-align: center;
+    }
+
+    #foot2 {
+        text-align: center;
+    }
+
+    #quicknews {
+        text-align: center;
+        color: rgb(0, 177, 255);
+        text-decoration: underline
+    }
+}
+  
