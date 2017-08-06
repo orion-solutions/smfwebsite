@@ -212,5 +212,21 @@ body {
     #quicknews {
         text-align: center;
         color: rgb(0, 177, 255);
-        text-decoration: underline
+        text-decoration: underline;
+        font-family: 'Orbitron';
+    }
+    #qnews {
+        text-align: center;
+        color:rgb(255,120,200);
+        font-size: 1.25em;
+        font: bold;
+        font-family: 'Orbitron';
+    }
+    #othernews {
+        text-align: center;
+        color: rgb(255,0,0);
+        text-decoration: underline;
+        font-size: 1.5em;
+        font: bold;
+        font-family: 'Orbitron';
     }
