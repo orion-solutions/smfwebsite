@@ -211,13 +211,14 @@ body {
 
     #quicknews {
         text-align: center;
-        color: rgb(0, 177, 255);
+        color: rgb(255, 0, 0);
         text-decoration: underline;
         font-family: 'Orbitron';
+
     }
     #qnews {
         text-align: center;
-        color:rgb(255,120,200);
+        color:rgb(255,175,100);
         font-size: 1.25em;
         font: bold;
         font-family: 'Orbitron';
