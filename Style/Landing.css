@@ -235,3 +235,7 @@ body {
         font: bold;
         font-family: 'Orbitron';
     }
+    #newsletter {
+        align-content: center;
+        background-color: rgba(0, 150, 255, 0.70);
+    }
