@@ -242,3 +242,9 @@ body {
     #newsform {
         text-align: center;
     }
+    #subpitch {
+        text-align:center;
+        font-family:'Orbitron';
+        font-size:1.5em;
+        font: bold;
+    }
