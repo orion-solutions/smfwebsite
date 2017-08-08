@@ -253,3 +253,9 @@ body {
        font-family:'Orbitron';
        font-size:1.5em;
     }
+    #newsp {
+       text-align:center;
+       font-family:'Orbitron';
+       font:700;
+       font-size:1.5em;
+    }
