@@ -239,3 +239,6 @@ body {
         align-content: center;
         background-color: rgba(0, 150, 255, 0.70);
     }
+    #newsform {
+        text-align: center;
+    }
