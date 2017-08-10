@@ -4,7 +4,6 @@ $database = 'db694202085';
 $user_name = 'dbo694202085';
 $password = 'ruchunUt7e$h';
 $sql = "SELECT * FROM `Newsletter`";
-$connect = mysql_connect($host_name, $user_name, $password, $database);
 if (mysql_errno()) {
     die('<p>Failed to connect to MySQL: '.mysql_error().'</p>');
 } else {
