@@ -259,3 +259,6 @@ body {
        font:700;
        font-size:1.5em;
     }
+	#news {
+		background-color: rgba(1,1,1,0.6);
+	}
