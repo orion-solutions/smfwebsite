@@ -1,4 +1,4 @@
-  header {
+header {
   text-align: center;
 }
 
@@ -263,5 +263,5 @@ body {
 		background-color: rgba(1,1,1,0.6);
 	}
 	#announcements {
-		color:rgb(0,0,0)
+		color:rgb(0,0,0);
 	}
