@@ -13,9 +13,8 @@ header {
 }
 
 body {
-  background-image: url(https://puwsbg.dm2301.livefilestore.com/y4mEJVE2ncmY_V_Bub63d6iUqezKoFZxzAubGBnuWnwiH-zOku2uhX08dU4BhTy5B6pmvg8BYxlrrB-NNtbQ-5y2UfWBVB1NjnNBQ0mhcEV5Mt-cQZc4idDE_Q541MIHk9uE0XofimCJ3aWA6QNn6CLSmnW_6DsfImgpLDkL-Vkz6U22ORfK_zFfTMTHPXhKmAnkjt0d53rvcN4Ec5A0DSU-g?width=1920&height=1200&cropmode=none);
+    background-image:url('/img/serveimage (1)');
 }
-
 #opening-page-overlay {
     background-color:rgba(25, 110, 225, 0.70);
     align-content:center;
