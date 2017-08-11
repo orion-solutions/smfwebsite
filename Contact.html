@@ -1,41 +1,67 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-
     <head>
-        <title>Contact Us</title>
-
-        <link rel="stylesheet" type="text/Css" href="Style\Contact.css" />
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="img/kitty.png" />
+        <link rel="stylesheet" type="text/Css" href="Style/Contact.css" />
         <meta charset='utf-8'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
         <script src="script.js"></script>
-        <title>CSS MenuMaker</title>
         <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-
+        <title>Contact Us</title>
     </head>
+
     <body>
-    <!--Fuck you Shock-->
+
         <header>
-            <h1 id="HeaderTitle">Contact SMF</h1>
             <div id='cssmenu'>
 
                 <img src='https://lh3.googleusercontent.com/1ZY_VudfNAG2jEE7fW6C6ZWWbRBObge7Cz5RholUlMOWlR3r_3DxvVm0HrXyf9kr0sqBuMt_OmNdN38ba5kCSbkMIojbIkSapIgyNzu7agJd5oBvW8lzfukRgoA0sja6EIySYl0uZw'>
-                <p id="SM">SM - freelance</p>
+                <p id="SM">SM Freelancing</p>
                 <!-- If applying this to multiple pages, remember
         to move the active class to the page the html file
-        represents (Shock, you're a hypocrite for using the List Menu because you said the P menu was better)-->
+        represents -->
                 <ul>
-                    <li><a href='Home.html'><span>Home</span></a></li>
-                    <li><a href='Projects.html'><span>Projects</span></a></li>
-                    <li><a href='About.html'><span>About Us</span></a></li>
-                    <li class="active"><a href="Contact.html"><span>Contact Us</span></a></li>
-                    <li class="last"><a href="News.html"><span>News</span></a></li>
+                    <li><a href="Landing.html" target="_blank"><span>Home</span></a></li>
+                    <li><a href="About.html" target="_blank"><span>About Us</span></a></li>
+                    <li><a class="active" href="Contact.html" target="_blank"><span>Contact Us</span></a></li>
+                    <li><a href="OGC.html" target="_blank"><span>Orion</span></a></li>
+                    <li><a class="last"href="News.html"target="_blank"><span>News</span></a></li>
                 </ul>
+
             </div>
         </header>
-        <hr />
-    </body>
 
+        <h1 id="contact-page">Contact SM Freelancing</h1>
+
+        <div>
+            <div class="container">
+                <form action="/action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="pnumber">Phone Number (Optional)</label>
+                    <input type="text"id="pnumber"name="phonenumber"placeholder="Your phone number.."/>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;overflow-y:auto;"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+
+            <h2>Send us an email here, or get in contact in a number of other ways!</h2>
+            <a href="http://www.facebook.com/smfreelancing" class="fa fa-facebook"></a>
+            <a href="http://www.twitter.com/smfreelancing" class="fa fa-twitter"></a>
+        </div>
+    </body>
 </html>
