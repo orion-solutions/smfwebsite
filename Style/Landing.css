@@ -1,7 +1,12 @@
 header {
   text-align: center;
 }
-
+#announcements {
+    color: rgb(0,0,0);
+    text-align:center;
+    text-decoration:underline;
+    font:bolder 1.2em 'Orbitron';
+}
 #welcome {
   color: #999;
   text-align: center;
@@ -24,14 +29,11 @@ body {
     margin-left: 25%;
     margin-right: 25%
 }
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
   margin: 0;
   background: #474d5c;
   width: auto;
 }
-
 #cssmenu p {
   font-family: 'Orbitron';
   font-size: 2em;
@@ -85,7 +87,6 @@ body {
 #cssmenu.align-center ul {
   text-align: center;
   margin-left: 10%;
-  ;
 }
 
 #cssmenu ul li a {
@@ -261,7 +262,4 @@ body {
     }
 	#news {
 		background-color: rgba(1,1,1,0.6);
-	}
-	#announcements {
-		color:rgb(0,0,0);
 	}
