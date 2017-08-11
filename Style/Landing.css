@@ -1,8 +1,8 @@
 header {
   text-align: center;
 }
-#announcements {
-    color: rgb(0,0,0);
+p#announcements {
+    color: rgb(0,0,0) !important;
     text-align:center;
     text-decoration:underline;
     font:bolder 1.2em 'Orbitron';
