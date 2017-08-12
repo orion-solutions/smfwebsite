@@ -13,7 +13,7 @@ p#announcements {
 }
 
 body {
-    background-image:url('/img/serveimage (1)');
+    background-color: rgb(90, 150, 175);
 }
 #opening-page-overlay {
     background-color:rgba(25, 110, 225, 0.70);
