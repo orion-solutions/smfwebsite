@@ -39,28 +39,29 @@
 
         <div>
             <div class="container">
-                <form action="/action_page.php">
+                <form method="POST"name="contactform"action="contact-form-handler.php">
 
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <input type="text" id="fname" name="firstname"placeholder="Your name.."required />
 
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <input type="text" id="lname" name="lastname"placeholder="Your last name.."required />
 
                     <label for="pnumber">Phone Number (Optional)</label>
-                    <input type="text"id="pnumber"name="phonenumber"placeholder="Your phone number.."/>
+                    <input type="text"id="pnumber"name="phonenumber"placeholder="Your phone number.." />
 
                     <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;overflow-y:auto;"></textarea>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;overflow-y:auto;"required></textarea>
 
                     <input type="submit" value="Submit">
 
                 </form>
+
             </div>
 
             <h2 id="cont-head">Send us an email here, or get in contact in a number of other ways!</h2>
-            <a id="fb"href="http://www.facebook.com/smfreelancing" class="fa fa-facebook"></a>
-            <a id="twit"href="http://www.twitter.com/smfreelancing" class="fa fa-twitter"></a>
+                <a id="fb"href="http://www.facebook.com/smfreelancing" class="fa fa-facebook"style="align-items:center;"></a>
+                <a id="twit"href="http://www.twitter.com/smfreelancing" class="fa fa-twitter"style="align-items:center;"></a>
         </div>
     </body>
 </html>
