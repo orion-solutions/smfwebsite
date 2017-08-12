@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(90, 150, 175);
     background-image: url('/img/serveimage (1)');
 }
 header {
@@ -204,4 +205,25 @@ input[type=submit] {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    align-content:center;
+}
+#contact-page {
+    text-align:center;
+    font-family:'Orbitron';
+    font:bolder;
+    font-size:2em;
+}
+#cont-head {
+    text-align:center;
+    font:bolder;
+    font-size:2em;
+    font-family:'Orbitron';
+}
+#fb {
+    align-content:center;
+    color:rgb(255,255,255);
+}
+#twit {
+    align-content:center;
+    color:rgb(255,255,255);
 }
