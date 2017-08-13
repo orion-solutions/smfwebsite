@@ -21,13 +21,11 @@ body p {
   margin-right: 25%
 }
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
   margin: 0;
   background: #474d5c;
   width: auto;
 }
-
 #cssmenu p {
   font-family: 'Orbitron';
   font-size: 2em;
@@ -81,7 +79,6 @@ body p {
 #cssmenu.align-center ul {
   text-align: center;
   margin-left: 10%;
-  ;
 }
 
 #cssmenu ul li a {
@@ -158,26 +155,30 @@ body p {
 }
 
 @media screen and (max-width: 768px) {
-  #cssmenu ul li {
-    float: none;
-    display: block;
-  }
-  #cssmenu ul li a {
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom: 1px solid #fb998c;
-  }
-  #cssmenu ul li.last>a, #cssmenu ul li:last-child>a {
-    border: 0;
-  }
-  #cssmenu ul li a:after {
-    display: none;
-  }
-  #cssmenu ul li a:before {
-    display: none;
-  }
+    #cssmenu ul li {
+        float: none;
+        display: block;
+        }
+
+        #cssmenu ul li a {
+            width: 100%;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border-bottom: 1px solid #fb998c;
+        }
+
+        #cssmenu ul li.last > a, #cssmenu ul li:last-child > a {
+            border: 0;
+        }
+
+        #cssmenu ul li a:after {
+            display: none;
+        }
+
+        #cssmenu ul li a:before {
+            display: none;
+        }
   #imgdesc {
     text-align: center;
     margin-left: 42%;
@@ -193,18 +194,7 @@ body p {
     border-radius: 5px;
   }
 
-  #navbar {
-    margin-right: 78px;
-    padding: 0;
-    text-align: center;
-    background-color: #111;
-    margin-left: 35%;
-    margin-right: 35%;
-    font-size: 1.5em;
-    color: Blue;
-    padding-top: 2px;
-    padding-bottom: 2px;
-  }
+
 
   .thanks {
     text-align: center;
@@ -212,70 +202,6 @@ body p {
     margin-left: 44%;
     margin-right: 44%;
   }
-  .preview {
-    margin-right: 40%;
-    margin-left: 40%;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-  }
-  .slider {
-    overflow: hidden;
-    height: 100%;
-  }
-  .slider figure div {
-    width: 20%;
-    float: left;
-  }
-  .slider figure img {
-    width: 100%;
-    margin-top: px;
-  }
-  .slider figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    Left: 0;
-    animation: 30s slidy infinite;
-  }
-  .slide p {
-    z-index: 10000;
-    font-size: ;
-    text-align: center;
-    width: 80%;
-    padding-top: 10px;
-    color: black;
-    font-family: 'Lato';
-  }
-  @keyframes slidy {
-    0% {
-      Left: 0%;
-    }
-    10% {
-      Left: 0%;
-    }
-    12% {
-      Left: -100%;
-    }
-    22% {
-      Left: -100%;
-    }
-    24% {
-      Left: -200%;
-    }
-    34% {
-      Left: -200%;
-    }
-    36% {
-      Left: -300%;
-    }
-    46% {
-      Left: -300%;
-    }
-    48% {
-      Left: -400%;
-    }
-    58% {
-      Left: -400%;
-    }
-  }
+
+
+}

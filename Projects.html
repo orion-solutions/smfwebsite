@@ -6,7 +6,7 @@
 
     <title>Our Work</title>
 
-    <link rel="stylesheet" type="text/Css" href="/our-work/styling/Projects.css" />
+    <link rel="stylesheet" type="text/css" href="Style/Projects.css" />
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,28 +40,63 @@
 
   <body>
     <br>
-    <div class="preview">
-      <div class="slider">
-        <figure>
+    <style>
+  .Website_Preview {
+      background-color: White;
+      width: 85%;
+      border: 10px solid Black;
+      padding: 0%;
+      margin-right: 5%;
+      margin-left: 5%;
+      border-radius: 15px;
+      position:relative;
+      height: 500px;
+  }
+  .Website_Preview img {
+    width: 100%;
+    border-top: 5px solid Black;
 
-          <div class="slide" style="overflow-y:auto;height:400px">
-            <p>Slide One!</p>
-            <img src="img/slide1.png">
-          </div>
+  }
+  .Website_Preview p {
+    font-family: Orbitron;
+    font-size: 3em;
+    line-height: 2px;
+  }
 
-          <div class="slide" style="overflow-y:auto;height:400px">
-            <p>Slide 2!</p>
-            <img src="img/slide2.jpg">
-          </div>
+  .Website_Preview a {
+    text-decoration: none;
+    color: Black;
+  }
 
-          <div class="slide" style="overflow-y:auto;height:400px">
-            <p>Slide 3!</p>
-            <img src="img/slide3.jpg">
-          </div>
+  .Website_Preview a:hover {
+    color: #818be6;
+  }
 
-        </figure>
-      </div>
-    </div>
+  </style>
+
+  </head>
+  <body>
+
+  <!-- /*<style>
+  div {
+      background-color: lightgrey;
+      width: 300px;
+      border: 25px solid green;
+      padding: 25px;
+      margin: 25px;
+  }
+  </style>*/
+   -->
+  </head>
+  <body>
+
+  <div class= "Website_Preview" style="overflow-y:scroll; height:500px;">
+    <p><a href= "Example.com">Example</a></p>
+
+      <img src= "img/page.png">
+  </div>
+
+
   </body>
 
   </html>
