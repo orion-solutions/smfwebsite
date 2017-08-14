@@ -1,0 +1,178 @@
+#cssmenu {
+    margin: 0;
+    background: #474d5c;
+    width: auto;
+}
+
+    #cssmenu p {
+        font-family: 'Orbitron';
+        font-size: 2em;
+        margin-left: 10px;
+        margin-top: .3%;
+        margin-bottom: 0;
+        float: left;
+        border-color: #818be6;
+    }
+
+#SM {
+    color: #fff;
+    margin-right: 10px;
+}
+
+#cssmenu img {
+    float: left;
+    height: 50px;
+    width: auto;
+    margin-left: 2%;
+}
+
+#cssmenu ul {
+    list-style: none;
+    margin-left: 26%;
+    padding: 0;
+    line-height: 1;
+    display: block;
+    zoom: 1;
+}
+
+    #cssmenu ul:after {
+        content: " ";
+        display: block;
+        font-size: 0;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+
+    #cssmenu ul li {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
+#cssmenu.align-right ul li {
+    float: right;
+}
+
+#cssmenu.align-center ul {
+    text-align: center;
+    margin-left: 10%;
+}
+
+#cssmenu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: color .25s;
+    -moz-transition: color .25s;
+    -ms-transition: color .25s;
+    -o-transition: color .25s;
+    transition: color .25s;
+}
+
+    #cssmenu ul li a:hover {
+        color: #818be6;
+    }
+
+        #cssmenu ul li a:hover:before {
+            width: 100%;
+        }
+
+    #cssmenu ul li a:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: -3px;
+        top: 19px;
+        height: 6px;
+        width: 6px;
+        background: #ffffff;
+        opacity: .5;
+    }
+
+    #cssmenu ul li a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 0;
+        background: #818be6;
+        -webkit-transition: width .25s;
+        -moz-transition: width .25s;
+        -ms-transition: width .25s;
+        -o-transition: width .25s;
+        transition: width .25s;
+    }
+
+#cssmenu ul li.last > a:after, #cssmenu ul li:last-child > a:after {
+    display: none;
+}
+
+#cssmenu ul li.active a {
+    color: #818be6;
+}
+
+    #cssmenu ul li.active a:before {
+        width: 100%;
+    }
+
+#cssmenu.align-right li.last > a:after, #cssmenu.align-right li:last-child > a:after {
+    display: block;
+}
+
+#cssmenu.align-right li:first-child a:after {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #cssmenu ul li {
+        float: none;
+        display: block;
+    }
+
+        #cssmenu ul li a {
+            width: 100%;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border-bottom: 1px solid #fb998c;
+        }
+
+        #cssmenu ul li.last > a, #cssmenu ul li:last-child > a {
+            border: 0;
+        }
+
+        #cssmenu ul li a:after {
+            display: none;
+        }
+
+        #cssmenu ul li a:before {
+            display: none;
+        }
+}
+#description {
+    text-align:center;
+    background-color:rgba(255, 70, 0, 0.75);
+    font-family:'Orbitron';
+    font-size:1.2em;
+}
+#about-orion {
+    background-color:rgba(0,0,0,0);
+}
+#roster {
+    font-size: 1.8em
+}
+#orion-roster-div {
+    background-color:rgba(255,70,0,0.75);
+    text-align:center;
+    font-family:'Orbitron';
+    font-size:1.2em;
+}
