@@ -1,6 +1,9 @@
 header {
     text-align:center;
 }
+body {
+    background-color:rgb(90,150,175);
+}
 #cssmenu {
     margin: 0;
     background: #474d5c;
