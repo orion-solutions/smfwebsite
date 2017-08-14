@@ -181,7 +181,7 @@ body {
 }
 #description {
     text-align:center;
-    background-color:rgba(255, 70, 0, 0.75);
+    background-color:rgba(1, 1, 1, 0.6);
     font-family:'Orbitron';
     font-size:1.2em;
 }
@@ -192,7 +192,7 @@ body {
     font-size: 1.8em
 }
 #orion-roster-div {
-    background-color:rgba(255,70,0,0.75);
+    background-color:rgba(1, 1, 1, 0.6);
     text-align:center;
     font-family:'Orbitron';
     font-size:1.2em;
