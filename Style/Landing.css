@@ -1,12 +1,6 @@
 header {
   text-align: center;
 }
-p#announcements {
-    color: rgb(0,0,0) !important;
-    text-align:center;
-    text-decoration:underline;
-    font:bolder 1.2em 'Orbitron';
-}
 #welcome {
   color: #999;
   text-align: center;
@@ -16,7 +10,7 @@ body {
     background-color: rgb(90, 150, 175);
 }
 #opening-page-overlay {
-    background-color:rgba(25, 110, 225, 0.70);
+    background-color:rgba(1, 1, 1, 0.60);
     align-content:center;
 }
 
@@ -222,7 +216,7 @@ body {
     }
     #othernews {
         text-align: center;
-        color: rgb(255,0,0);
+        color: rgb(0,0,0);
         text-decoration: underline;
         font-size: 1.5em;
         font: bolder;
@@ -261,4 +255,25 @@ body {
     }
 	#news {
 		background-color: rgba(1,1,1,0.6);
+        overflow-y:auto;
+        height:800px;
 	}
+    p a {
+        text-decoration:none !important;
+        color:rgb(0,0,0);
+        font-family:'Orbitron';
+    }
+    #announcements {
+        text-decoration: none !important;
+        text-align:center;
+        font-family:'Orbitron';
+        font-size:1.5em;
+        font:bolder;
+    }
+    #inews {
+        text-align: center !important;
+        text-decoration: underline !important;
+        font-family: 'Orbitron' !important;
+        font-size: 1.5em !important;
+        font: bolder !important;
+    }
