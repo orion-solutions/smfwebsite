@@ -4,6 +4,10 @@ header {
 body {
     background-color:rgb(90,150,175);
 }
+#unnecessary {
+    font-family:'Orbitron';
+    font-size:2em;
+}
 #cssmenu {
     margin: 0;
     background: #474d5c;
