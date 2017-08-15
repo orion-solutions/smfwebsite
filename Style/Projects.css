@@ -1,8 +1,14 @@
-body {
-  background-color: rgb(90, 150, 200);
+  h1 {
+  color: #999;
+  text-align: center;
+  margin-right: ;
 }
 
-#pinfo {
+body {
+  background-color: rgb(90, 150, 175);
+}
+
+body p {
   text-align: center;
 }
 
@@ -181,6 +187,7 @@ body {
   +#closing {
     text-align: center;
   }
+
   .thanks {
     text-align: center;
     background-color: rgba(206, 125, 205, 0.5);
@@ -190,51 +197,3 @@ body {
 
 
 }
-                #projectinfo {
-                    text-align: center !important;
-                    font-size: 1.5em;
-                    font-family: 'Orbitron';
-                    margin-left: 5%;
-                    margin-right: 5%;
-                    line-height: 30px;
-                }
-
-                .Website_Preview {
-                    background-color: White;
-                    width: 85%;
-                    border: 10px solid Black;
-                    padding: 0%;
-                    margin-right: 5%;
-                    margin-left: 5%;
-                    border-radius: 15px;
-                    position: relative;
-                    height: 500px;
-                }
-
-                    .Website_Preview img {
-                        width: 100%;
-                        border-top: 5px solid Black;
-                    }
-
-                    .Website_Preview p {
-                        font-family: Orbitron;
-                        font-size: 3em;
-                        line-height: 2px;
-                    }
-
-                    .Website_Preview a {
-                        text-decoration: none;
-                        color: Black;
-                    }
-
-                        .Website_Preview a:hover {
-                            color: #818be6;
-                        }
-              
-          div {
-              background-color: lightgrey;
-              width: 300px;
-              border: 10px;
-              padding: 2%;
-              margin: 25px;
-          }
