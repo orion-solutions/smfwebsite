@@ -160,3 +160,31 @@
 			display: none;
 		}
 }
+body {
+    background-color:rgb(90,150,175)
+}
+#opening-pitch {
+    text-align:center;
+    background-color:rgba(1,1,1,0.6);
+    font-family:'Orbitron';
+    font-size:22px;
+    font:bold;
+    height:1000px;
+    padding:3%;
+}
+#about-f {
+    text-align:center;
+    background-color:rgba(1,1,1,0.6);
+    font-family:'Orbitron';
+    font-size:22px;
+    font:bold;
+    overflow-y:none;
+    height:1000px;
+    padding:3%;
+}
+footer {
+    text-align:center;
+    font-family:'Orbitron';
+    font-size:1.8em;
+    font:bolder;
+}
