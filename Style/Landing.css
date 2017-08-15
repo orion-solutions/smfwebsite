@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 header {
   text-align: center;
 }
@@ -278,54 +277,3 @@ body {
         font-size: 1.5em !important;
         font: bolder !important;
     }
-=======
-<style>
-  header {
-    text-align: center;
-  }
-  h1 {
-    color: #999;
-    text-align: center;
-  }
-  body {
-    background-image: url(https://puwsbg.dm2301.livefilestore.com/y4mEJVE2ncmY_V_Bub63d6iUqezKoFZxzAubGBnuWnwiH-zOku2uhX08dU4BhTy5B6pmvg8BYxlrrB-NNtbQ-5y2UfWBVB1NjnNBQ0mhcEV5Mt-cQZc4idDE_Q541MIHk9uE0XofimCJ3aWA6QNn6CLSmnW_6DsfImgpLDkL-Vkz6U22ORfK_zFfTMTHPXhKmAnkjt0d53rvcN4Ec5A0DSU-g?width=1920&height=1200&cropmode=none);
-  }
-  p { id=opening;
-    text-align: center;
-  }
-  img {
-    margin-left: 225px;
-    margin-right: 300px;
-  }
-  p { id=imgdesc;
-    text-align:center;
-  }
-  p { id=closing;
-    text-align: center;
-  }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #111;
-  }
-  li {
-    display: inline-block;
-    width: 100px;
-  }
-  li a {
-    color: white;
-    text-decoration-line: none;
-    margin: 5px;
-    padding: 8px;
-  }
-  div {
-    text-align: center;
-  }
-  li a:hover {
-    color: lightblue;
-    background-color: #999;
-  }
-</style>
->>>>>>> origin/master
