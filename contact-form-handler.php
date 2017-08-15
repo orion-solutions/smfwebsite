@@ -21,7 +21,7 @@ $email_address))
 
 if( empty($errors))
 {
-	$to = $myemail; 
+	$to = 'smfdevteam@smfreelancing'; 
 	$email_subject = "Contact form submission: $name";
 	$email_body = "You have received a new message. ".
 	" Here are the details:\n Name: $name \n Email: $email_address \n Message \n $message"; 
