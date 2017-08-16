@@ -1,5 +1,5 @@
 <?php
 
-	header( 'Location: http://www.smfreelancing.com/orion-esports/ogc.html/' )
+	header( 'Location: http://www.smfreelancing.com/orion-esports/ogc.html/' ) ;
 
->
+?>
