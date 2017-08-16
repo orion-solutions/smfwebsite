@@ -1,5 +1,5 @@
 <?php
 
-   header( 'Location: http://www.smfreelancing.com/landing.html' ) ;
+   header( 'Location: http://www.smfreelancing.com/home/landing.html' ) ;
 
 ?>
