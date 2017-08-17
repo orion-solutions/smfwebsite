@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Style"
+    "\\about-us",
+    "\\contact-us",
+    "\\home",
+    "\\news",
+    "\\orion-esports",
+    "\\our-projects"
   ],
-  "SelectedNode": "\\Contact.html",
+  "SelectedNode": "\\about-us\\About.html",
   "PreviewInSolutionExplorer": false
 }
