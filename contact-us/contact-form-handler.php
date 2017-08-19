@@ -1,6 +1,6 @@
 <?php 
 $errors = '';
-$myemail = 'smfdevteam@smfreelancing.com';//<-----Put Your email address here.
+$myemail = 'smfdevteam@smfreelancing.com';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
@@ -10,14 +10,7 @@ if(empty($_POST['name'])  ||
 
 $name = $_POST['name']; 
 $email_address = $_POST['email']; 
-$message = $_POST['message']; 
-
-if (!preg_match(
-"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
-$email_address))
-{
-    $errors .= "\n Error: Invalid email address";
-}
+$message = $_POST['message'];
 
 if( empty($errors))
 {
@@ -30,7 +23,6 @@ if( empty($errors))
 	$headers .= "Reply-To: $email_address";
 	
 	mail($to,$email_subject,$email_body,$headers);
-	//redirect to the 'thank you' page
 	header('Location: contact-form-thank-you.html');
 } 
 ?>
@@ -41,7 +33,6 @@ if( empty($errors))
 </head>
 
 <body>
-<!-- This page is displayed only if there is some error -->
 <?php
 echo nl2br($errors);
 ?>
