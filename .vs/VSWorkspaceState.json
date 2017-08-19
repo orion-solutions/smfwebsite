@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\contact-us"
+    "\\contact-us",
+    "\\Style"
   ],
-  "SelectedNode": "\\contact-us\\contact-form-thank-you.html",
+  "SelectedNode": "\\Style\\thank-you.css",
   "PreviewInSolutionExplorer": false
 }
