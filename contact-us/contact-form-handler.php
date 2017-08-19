@@ -1,42 +1,67 @@
-<?php 
-$errors = '';
-$myemail = 'smfdevteam@smfreelancing.com';
-if(empty($_POST['name'])  || 
-   empty($_POST['email']) || 
-   empty($_POST['message']))
+<?php
+/* Set e-mail recipient */
+$myemail  = "smfdevteam@smfreelancing.com";
+
+/* Check all form inputs using check_input function */
+$fullname  = check_input($_POST['fullname'], "Enter your name");
+$emailaddress  = check_input($_POST['emailaddress']);
+$comments  = check_input($_POST['comments'], "Write your comments");
+
+/* If e-mail is not valid show error message */
+if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $emailaddress))
 {
-    $errors .= "\n Error: all fields are required";
+    show_error("E-mail address not valid");
 }
 
-$name = $_POST['name']; 
-$email_address = $_POST['email']; 
-$message = $_POST['message'];
+/* Let's prepare the message for the e-mail */
+$message = "Hello!
 
-if( empty($errors))
+Your contact form has been submitted by:
+
+Name: $fullname
+E-mail: $emailaddress
+Comments: $comments
+
+End of message
+";
+
+/* Send the message using mail() function */
+mail($myemail, $subject, $message);
+
+/* Redirect visitor to the thank you page */
+header('Location: smfreelancing.com/contact-us/contact-form-thank-you.html');
+exit();
+
+/* Functions we used */
+function check_input($data, $problem='')
 {
-	$to = 'smfdevteam@smfreelancing'; 
-	$email_subject = "Contact form submission: $name";
-	$email_body = "You have received a new message. ".
-	" Here are the details:\n Name: $name \n Email: $email_address \n Message \n $message"; 
-	
-	$headers = "From: $myemail\n"; 
-	$headers .= "Reply-To: $email_address";
-	
-	mail($to,$email_subject,$email_body,$headers);
-	header('Location: contact-form-thank-you.html');
-} 
-?>
-<!DOCTYPE html> 
-<html>
-<head>
-	<title>Oh noes! It's an error!</title>
-</head>
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    if ($problem && strlen($data) == 0)
+    {
+        show_error($problem);
+    }
+    return $data;
+}
 
-<body>
+function show_error($myError)
+{
+?>
+    <html>
+		<head>
+			<meta charset="utf-8">
+			<link rel="stylesheet"type="text/Css"href="/Style/contact-thanks.css">
+			<link rel="icon"href="/img/kitty.png">
+		</head>
+    <body>
+
+    <b>Please correct the following error:</b><br />
+    <?php echo $myError; ?>
+
+    </body>
+    </html>
 <?php
-echo nl2br($errors);
+exit();
+}
 ?>
-
-
-</body>
-</html>
