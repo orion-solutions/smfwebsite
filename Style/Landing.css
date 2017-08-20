@@ -1,34 +1,41 @@
+html {
+    background-color: rgb(128, 128, 128);
+}
+
+body {
+    align-content: center;
+}
+
 header {
     text-align: center;
 }
 
-#welcome {
-    color: #999;
-    text-align: center;
-}
-
-body {
-    background-color: rgb(90, 150, 175);
-}
-
 #opening-page-overlay {
-    background-color: rgba(255, 255, 255, 0.60);
-    align-content: center;
+    background-color: rgba(255, 255, 255, 0.80);
+    align-content: center !important;
+    border-radius: 7%;
 }
 
 #opening {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-family: sans-serif;
     line-height: 45px;
     margin-left: 25%;
-    margin-right: 25%
+    margin-right: 25%;
+    padding: 1%;
+}
+
+#SM {
+    color: #fff;
+    margin-right: 10px;
 }
 
 #cssmenu {
     margin: 0;
     background: #474d5c;
     width: auto;
+    border-radius: 7%;
 }
 
     #cssmenu p {
@@ -41,123 +48,118 @@ body {
         border-color: #818be6;
     }
 
-#SM {
-    color: #fff;
-    margin-right: 10px;
-}
-
-#cssmenu img {
-    float: left;
-    height: 50px;
-    width: auto;
-    margin-left: 2%;
-}
-
-#cssmenu ul {
-    list-style: none;
-    margin-left: 26%;
-    padding: 0;
-    line-height: 1;
-    display: block;
-    zoom: 1;
-}
-
-    #cssmenu ul:after {
-        content: " ";
-        display: block;
-        font-size: 0;
-        height: 0;
-        clear: both;
-        visibility: hidden;
+    #cssmenu img {
+        float: left;
+        height: 50px;
+        width: auto;
+        margin-left: 2%;
     }
 
-    #cssmenu ul li {
-        display: inline-block;
+    #cssmenu ul {
+        list-style: none;
+        margin-left: 26%;
         padding: 0;
-        margin: 0;
+        line-height: 1;
+        display: block;
+        zoom: 1;
     }
 
-#cssmenu.align-right ul li {
-    float: right;
-}
+        #cssmenu ul:after {
+            content: " ";
+            display: block;
+            font-size: 0;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
 
-#cssmenu.align-center ul {
-    text-align: center;
-    margin-left: 10%;
-}
+        #cssmenu ul li {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
 
-#cssmenu ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-    padding: 15px 25px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 14px;
-    position: relative;
-    -webkit-transition: color .25s;
-    -moz-transition: color .25s;
-    -ms-transition: color .25s;
-    -o-transition: color .25s;
-    transition: color .25s;
-}
+    #cssmenu.align-right ul li {
+        float: right;
+    }
 
-    #cssmenu ul li a:hover {
+    #cssmenu.align-center ul {
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    #cssmenu ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
+        padding: 15px 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 14px;
+        position: relative;
+        -webkit-transition: color .25s;
+        -moz-transition: color .25s;
+        -ms-transition: color .25s;
+        -o-transition: color .25s;
+        transition: color .25s;
+    }
+
+        #cssmenu ul li a:hover {
+            color: #818be6;
+        }
+
+            #cssmenu ul li a:hover:before {
+                width: 100%;
+            }
+
+        #cssmenu ul li a:after {
+            content: "";
+            display: block;
+            position: absolute;
+            right: -3px;
+            top: 19px;
+            height: 6px;
+            width: 6px;
+            background: #ffffff;
+            opacity: .5;
+        }
+
+        #cssmenu ul li a:before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 3px;
+            width: 0;
+            background: #818be6;
+            -webkit-transition: width .25s;
+            -moz-transition: width .25s;
+            -ms-transition: width .25s;
+            -o-transition: width .25s;
+            transition: width .25s;
+        }
+
+    #cssmenu ul li.last > a:after, #cssmenu ul li:last-child > a:after {
+        display: none;
+    }
+
+    #cssmenu ul li.active a {
         color: #818be6;
     }
 
-        #cssmenu ul li a:hover:before {
+        #cssmenu ul li.active a:before {
             width: 100%;
         }
 
-    #cssmenu ul li a:after {
-        content: "";
+    #cssmenu.align-right li.last > a:after, #cssmenu.align-right li:last-child > a:after {
         display: block;
-        position: absolute;
-        right: -3px;
-        top: 19px;
-        height: 6px;
-        width: 6px;
-        background: #ffffff;
-        opacity: .5;
     }
 
-    #cssmenu ul li a:before {
-        content: "";
-        display: block;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 3px;
-        width: 0;
-        background: #818be6;
-        -webkit-transition: width .25s;
-        -moz-transition: width .25s;
-        -ms-transition: width .25s;
-        -o-transition: width .25s;
-        transition: width .25s;
+    #cssmenu.align-right li:first-child a:after {
+        display: none;
     }
-
-#cssmenu ul li.last > a:after, #cssmenu ul li:last-child > a:after {
-    display: none;
-}
-
-#cssmenu ul li.active a {
-    color: #818be6;
-}
-
-    #cssmenu ul li.active a:before {
-        width: 100%;
-    }
-
-#cssmenu.align-right li.last > a:after, #cssmenu.align-right li:last-child > a:after {
-    display: block;
-}
-
-#cssmenu.align-right li:first-child a:after {
-    display: none;
-}
 
 @media screen and (max-width: 768px) {
     #cssmenu ul li {
@@ -184,46 +186,6 @@ body {
         #cssmenu ul li a:before {
             display: none;
         }
-
-    #imgdesc {
-        text-align: center;
-        margin-left: 42%;
-        margin-right: 42%;
-    }
-
-    #fb {
-        align-content: center;
-        color: rgb(255,255,255);
-    }
-
-    #twit {
-        align-content: center;
-        color: rgb(255,255,255);
-    }
-
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-        align-content: center;
-    }
-
-    #closing {
-        text-align: center !important;
-        font-family: 'Orbitron' !important;
-        font-size: 1.4em !important;
-        font: bold !important;
-    }
-
-    p {
-        background-color: rgba(206, 125, 205, 0.5);
-        background: rgba(206, 125, 205, 0.5);
-        padding: 1em;
-        border-radius: 5px;
-    }
 }
 
 #quicknews {
@@ -231,6 +193,29 @@ body {
     color: rgb(0, 0, 0);
     text-decoration: underline;
     font-family: 'Orbitron';
+    border-radius: 7%;
+}
+
+#news {
+    background-color: rgba(1,1,1,0.6);
+    overflow-y: auto;
+    height: 300px;
+}
+
+#inews {
+    text-align: center !important;
+    text-decoration: underline !important;
+    font-family: 'Orbitron' !important;
+    font-size: 1.5em !important;
+    font: bolder !important;
+}
+
+#announcements {
+    text-decoration: none !important;
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 1.5em;
+    font: bolder;
 }
 
 #othernews {
@@ -250,41 +235,42 @@ body {
     font-family: 'Orbitron';
 }
 
-#newsp {
-    text-align: center;
-    font-family: 'Orbitron';
-    font: 700;
-    font-size: 1.5em;
-}
-
-#news {
-    background-color: rgba(1,1,1,0.6);
-    overflow-y: auto;
-    height: 800px;
-}
-
 p a {
     text-decoration: none !important;
     color: rgb(0,0,0);
     font-family: 'Orbitron';
 }
 
-#announcements {
-    text-decoration: none !important;
-    text-align: center;
-    font-family: 'Orbitron';
-    font-size: 1.5em;
-    font: bolder;
-}
-
-#inews {
-    text-align: center !important;
-    text-decoration: underline !important;
-    font-family: 'Orbitron' !important;
-    font-size: 1.5em !important;
-    font: bolder !important;
-}
-
 footer {
+    align-content: center !important;
+    font-family: 'Orbitron';
+    font-size: 1.4em;
+    font: bold;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+#closing {
     text-align: center;
 }
