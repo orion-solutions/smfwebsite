@@ -1,10 +1,10 @@
 body {
-    background-color:rgb(90,150,175);
+    background-color:rgb(128,128,128);
 }
 div {
     text-align:center;
-    background-color:rgba(255, 255, 255, 0.6);
-    border-radius:4px;
+    background-color:rgba(255, 0, 0, 0.75);
+    border-radius:7%;
 }
 h1, h2 {
     text-align:center;
