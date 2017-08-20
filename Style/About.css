@@ -196,3 +196,21 @@ footer {
     font-size: 1.4em;
     font: bolder;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    align-content: center;
+}
+#fb {
+    align-content: center;
+    color: rgb(255,255,255);
+}
+
+#twit {
+    align-content: center;
+    color: rgb(255,255,255);
+}
