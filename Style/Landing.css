@@ -10,7 +10,7 @@ body {
     background-color: rgb(90, 150, 175);
 }
 #opening-page-overlay {
-    background-color:rgba(1, 1, 1, 0.60);
+    background-color:rgba(255, 255, 255, 0.60);
     align-content:center;
 }
 
@@ -206,10 +206,10 @@ body {
         align-content: center;
     }
     #closing {
-        text-align: center;
-        font-family: 'Orbitron';
-        font-size: 1.4em;
-        font: bold;
+        text-align: center !important;
+        font-family: 'Orbitron' !important;
+        font-size: 1.4em !important;
+        font: bold !important;
     }
     p {
         background-color: rgba(206, 125, 205, 0.5);
