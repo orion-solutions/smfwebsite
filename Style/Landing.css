@@ -186,11 +186,31 @@ body {
         margin-left: 42%;
         margin-right: 42%;
     }
-
-    #closing {
-        text-align: center;
+    #fb {
+        align-content: center;
+        color: rgb(255,255,255);
     }
 
+    #twit {
+        align-content: center;
+        color: rgb(255,255,255);
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        align-content: center;
+    }
+    #closing {
+        text-align: center;
+        font-family: 'Orbitron';
+        font-size: 1.4em;
+        font: bold;
+    }
     p {
         background-color: rgba(206, 125, 205, 0.5);
         background: rgba(206, 125, 205, 0.5);
