@@ -1,8 +1,7 @@
 <?php
-/* Set e-mail recipient */
+
 $myemail  = "smfdevteam@smfreelancing.com";
 
-/* Check all form inputs using check_input function */
 $fullname  = check_input($_POST['fullname'], "Enter your name");
 $emailaddress  = check_input($_POST['emailaddress']);
 $comments  = check_input($_POST['comments'], "Write your comments");
