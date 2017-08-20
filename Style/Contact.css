@@ -1,8 +1,9 @@
 body {
     background-color: rgb(90, 150, 175);
 }
+
 header {
-    text-align:center;
+    text-align: center;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -37,6 +38,7 @@ input[type=submit] {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
 #cssmenu {
     margin: 0;
     background: #474d5c;
@@ -197,6 +199,7 @@ input[type=submit] {
             display: none;
         }
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -204,25 +207,29 @@ input[type=submit] {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    align-content:center;
+    align-content: center;
 }
+
 #contact-page {
-    text-align:center;
-    font-family:'Orbitron';
-    font:bolder;
-    font-size:2em;
+    text-align: center;
+    font-family: 'Orbitron';
+    font: bolder;
+    font-size: 2em;
 }
+
 #cont-head {
-    text-align:center;
-    font:bolder;
-    font-size:2em;
-    font-family:'Orbitron';
+    text-align: center;
+    font: bolder;
+    font-size: 2em;
+    font-family: 'Orbitron';
 }
+
 #fb {
-    align-content:center;
-    color:rgb(255,255,255);
+    align-content: center;
+    color: rgb(255,255,255);
 }
+
 #twit {
-    align-content:center;
-    color:rgb(255,255,255);
+    align-content: center;
+    color: rgb(255,255,255);
 }
