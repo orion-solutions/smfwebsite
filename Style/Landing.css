@@ -193,13 +193,13 @@ header {
     color: rgb(0, 0, 0);
     text-decoration: underline;
     font-family: 'Orbitron';
-    border-radius: 7%;
 }
 
 #news {
     background-color: rgba(1,1,1,0.6);
     overflow-y: auto;
     height: 300px;
+    border-radius:7%;
 }
 
 #inews {
