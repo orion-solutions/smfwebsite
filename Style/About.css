@@ -165,7 +165,7 @@ header {
 }
 
 body {
-    background-color: rgb(50,120,255)
+    background-color: rgb(90,150,175)
 }
 
 #opening-pitch {
@@ -174,8 +174,9 @@ body {
     font-family: 'Orbitron';
     font-size: 22px;
     font: bold;
-    height: 1000px;
+    height: 600px;
     padding: 2%;
+    overflow-y: scroll;
 }
 
 #about-f {
@@ -184,8 +185,8 @@ body {
     font-family: 'Orbitron';
     font-size: 22px;
     font: bold;
-    overflow-y: none;
-    height: 1000px;
+    overflow-y: scroll;
+    height: 600px;
     padding: 2%;
 }
 
