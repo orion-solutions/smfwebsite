@@ -219,14 +219,6 @@ body {
     }
 }
 
-    #foot1 {
-        text-align: center;
-    }
-
-    #foot2 {
-        text-align: center;
-    }
-
     #quicknews {
         text-align: center;
         color: rgb(0, 0, 0);
@@ -248,24 +240,6 @@ body {
         font-size: 1.25em;
         font: bold;
         font-family: 'Orbitron';
-    }
-    #newsletter {
-        align-content: center;
-        background-color: rgba(0, 150, 255, 0.70);
-    }
-    #newsform {
-        text-align: center;
-    }
-    #subpitch {
-        text-align:center;
-        font-family:'Orbitron';
-        font-size:1.5em;
-        font: bold;
-    }
-    #signupnews {
-       text-align:center;
-       font-family:'Orbitron';
-       font-size:1.5em;
     }
     #newsp {
        text-align:center;
@@ -297,21 +271,6 @@ body {
         font-size: 1.5em !important;
         font: bolder !important;
     }
-    #fb {
-        align-content: center;
-        color: rgb(255,255,255);
-    }
-
-    #twit {
-        align-content: center;
-        color: rgb(255,255,255);
-    }
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-        align-content: center;
-    }
+footer {
+    text-align:center;
+}
