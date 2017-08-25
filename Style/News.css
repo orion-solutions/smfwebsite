@@ -161,7 +161,9 @@
             display: none;
         }
 }
-
+body {
+    background-color: rgb(128,128,128);
+}
 #opening {
     text-align: center;
     text-decoration: underline;
@@ -180,10 +182,6 @@
     background-color: rgba(1,1,1,0.6);
     overflow-y: auto;
     height: 800px;
-}
-
-body {
-    background-color: rgb(90,150,175);
 }
 
 #featurenews {

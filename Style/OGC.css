@@ -1,24 +1,29 @@
 header {
-    text-align:center;
+    text-align: center;
 }
+
 footer {
-    text-align:center;
-    font-family:'Orbitron';
-    text-decoration:none;
-    font-size:large;
-    font:bolder;
+    text-align: center;
+    font-family: 'Orbitron';
+    text-decoration: none;
+    font-size: large;
+    font: bolder;
 }
+
 h2 a {
-    text-decoration:none;
-    color:rgb(0,0,0);
+    text-decoration: none;
+    color: rgb(0,0,0);
 }
+
 body {
-    background-color:rgb(128,128,128);
+    background-color: rgb(128,128,128);
 }
+
 #unnecessary {
-    font-family:'Orbitron';
-    font-size:2em;
+    font-family: 'Orbitron';
+    font-size: 2em;
 }
+
 #cssmenu {
     margin: 0;
     background: #474d5c;
@@ -179,21 +184,25 @@ body {
             display: none;
         }
 }
+
 #description {
-    text-align:center;
-    background-color:rgba(255, 0, 0, 0.75);
-    font-family:'Orbitron';
-    font-size:1.2em;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    font-family: 'Orbitron';
+    font-size: 1.2em;
 }
+
 #about-orion {
-    background-color:rgba(0,0,0,0);
+    background-color: rgba(255,255,255,0.5);
 }
+
 #roster {
     font-size: 1.8em
 }
+
 #orion-roster-div {
-    background-color:rgba(128,128,128,0.75);
-    text-align:center;
-    font-family:'Orbitron';
-    font-size:1.2em;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 1.2em;
 }
