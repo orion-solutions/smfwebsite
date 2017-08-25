@@ -14,7 +14,7 @@ body {
 
 #opening {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-family: sans-serif;
     line-height: 45px;
     margin-left: 25%;
@@ -190,11 +190,52 @@ body {
     #closing {
         text-align: center;
     }
+}
 
-    .thanks {
-        text-align: center;
-        background-color: rgba(255,255,255,0.5);
-        margin-left: 44%;
-        margin-right: 44%;
+#projectinfo {
+    text-align: center !important;
+    font-size: 1.5em;
+    font-family: 'Orbitron';
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 30px;
+}
+
+.Website_Preview {
+    background-color: White;
+    width: 85%;
+    border: 10px solid Black;
+    padding: 0%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 15px;
+    position: relative;
+    height: 500px;
+}
+
+    .Website_Preview img {
+        width: 100%;
+        border-top: 5px solid Black;
     }
+
+    .Website_Preview p {
+        font-family: Orbitron;
+        font-size: 3em;
+        line-height: 2px;
+    }
+
+    .Website_Preview a {
+        text-decoration: none;
+        color: Black;
+    }
+
+        .Website_Preview a:hover {
+            color: #818be6;
+        }
+
+#pinfo {
+    background-color:rgba(128,255,128,0.5);
+    border: 10px;
+    padding: 2%;
+    margin: auto;
 }

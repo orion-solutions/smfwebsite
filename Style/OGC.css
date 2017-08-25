@@ -187,13 +187,13 @@ body {
 
 #description {
     text-align: center;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(128,255,128,0.5);
     font-family: 'Orbitron';
     font-size: 1.2em;
 }
 
 #about-orion {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(128,255,128,0.5);
 }
 
 #roster {
@@ -201,7 +201,7 @@ body {
 }
 
 #orion-roster-div {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(128,255,128,0.5);
     text-align: center;
     font-family: 'Orbitron';
     font-size: 1.2em;

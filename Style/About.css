@@ -175,7 +175,7 @@ body {
 
 #opening-pitch {
     text-align: center;
-    background-color: rgba(1, 1, 1, 0.6);
+    background-color: rgba(128,255,128,0.5);
     font-family: 'Orbitron';
     font-size: 22px;
     font: bold;
@@ -186,7 +186,7 @@ body {
 
 #about-f {
     text-align: center;
-    background-color: rgba(1, 1, 1, 0.6);
+    background-color: rgba(128,255,128,0.5);
     font-family: 'Orbitron';
     font-size: 22px;
     font: bold;
