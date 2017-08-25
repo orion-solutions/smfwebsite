@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\contact-us",
-    "\\news"
+    "\\news",
+    "\\Style"
   ],
-  "SelectedNode": "\\contact-us\\contact-form-handler.php",
+  "SelectedNode": "\\Style\\Contact.css",
   "PreviewInSolutionExplorer": false
 }
