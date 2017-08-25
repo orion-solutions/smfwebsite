@@ -197,11 +197,10 @@ header {
     font-family: sans-serif;
 }
 
-#closing {
+.closing {
     text-align: center;
     font-family: 'Orbitron';
-    font-size: 1.4em;
-    font: bolder;
+    font: bold;
 }
 
 #closing-paragraph {
