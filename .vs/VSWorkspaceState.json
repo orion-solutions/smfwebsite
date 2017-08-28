@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\news",
+    "\\orion-esports",
+    "\\our-projects",
     "\\Style"
   ],
-  "SelectedNode": "\\Style\\newsite.css",
+  "SelectedNode": "\\news\\newsite.html",
   "PreviewInSolutionExplorer": false
 }
